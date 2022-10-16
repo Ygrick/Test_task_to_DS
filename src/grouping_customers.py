@@ -32,5 +32,5 @@ if __name__ == "__main__":
         res = groups_customers_1(*list(map(int, sys.argv[1:])))
         print(res)
     except: 
-        print('Введён неправильный аргумент. Допускаются только целые значения')
+        print('Введён неправильный аргумент.')
 
