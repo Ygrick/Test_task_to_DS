@@ -12,3 +12,4 @@ py grouping_customers.py 1000 70
 py grouping_customers.py 100 5
 py grouping_customers.py 100
 ```
+* если не получается, то попробуйте заменить "py" на "python"
