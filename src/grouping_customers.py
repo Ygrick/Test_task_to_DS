@@ -28,6 +28,9 @@ def groups_customers_1(n_customers, n_first_id=0) -> dict:
 
 
 if __name__ == "__main__":
-    res = groups_customers_1(int(sys.argv[1]), int(sys.argv[2]))
-    print(res)
+    try:
+        res = groups_customers_1(int(sys.argv[1]), int(sys.argv[2]))
+        print(res)
+    except: 
+        print('Введён неправильный аргумент. Допускаются только целые значения')
 
