@@ -29,7 +29,7 @@ def groups_customers_1(n_customers, n_first_id=0) -> dict:
 
 if __name__ == "__main__":
     try:
-        res = groups_customers_1(int(sys.argv[1]), int(sys.argv[2]))
+        res = groups_customers_1(*list(map(int, sys.argv[1:])))
         print(res)
     except: 
         print('Введён неправильный аргумент. Допускаются только целые значения')
